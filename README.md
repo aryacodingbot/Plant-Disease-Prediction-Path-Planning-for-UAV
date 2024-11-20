@@ -11,6 +11,8 @@ We converted the images of the dataset to NDVI (Normalized Difference Vegetative
 The NDVI images looks somthing related to grayscale images then we trained the model, to get the novality we used Grad-cam that mainly 
 extracts the important features from the images and creates the heatmaps
 
+then we trained and saved the model using pickle
+
 Coming to path planning we used A* and RRT algorithm 
 
 A* purely works on heuristics and RRT creates the Random Tree
